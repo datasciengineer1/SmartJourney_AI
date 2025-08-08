@@ -1,0 +1,25 @@
+
+/* Buttons, options, and recommendation items */
+.button, .option, .recommendation-item {
+  border: 2px solid transparent;
+  padding: 10px 20px; /* keep consistent */
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.button:focus, .option:focus, .recommendation-item:focus {
+  border-color: #007BFF; /* highlight color */
+  outline: none;
+  background-color: #f0f8ff; /* subtle highlight */
+}
+
+/* Flex container fixes */
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-item {
+  min-width: 150px;
+  flex-shrink: 0;
+}

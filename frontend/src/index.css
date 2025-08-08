@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add box-sizing fix */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
